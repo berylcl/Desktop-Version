@@ -1160,3 +1160,11 @@ form {
     background-origin: inherit;
   }
 }
+
+.block1, .item2, .item3, .item4 {
+  overflow: hidden;
+}
+
+.block1a img:hover, .item2a img:hover, .item3a img:hover, .item4a img:hover {
+  transform: scale(110%);
+}
