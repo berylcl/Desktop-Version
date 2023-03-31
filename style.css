@@ -1081,6 +1081,10 @@ form {
     margin-right: 5%;
   }
 
+  .tags li {
+    padding: 10px;
+  }
+
   .social-media li:nth-of-type(1) {
     margin-left: -100%;
   }
@@ -1103,9 +1107,6 @@ form {
     line-height: 24px;
   }
 
-  .tags li {
-    padding: 10px;
-  }
   .item1b ul {
     margin-top: -8%;
   }
