@@ -1056,7 +1056,24 @@ form {
     margin-left: 1%;
   }
 
+  .role ul {
+    display: flex;
+  }
+
   .role li {
+    margin-top: 3.5%;
+  }
+
+  .role ::before {
+    content: " ";
+    width: 6px;
+    height: 6px;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    border-radius: 40%;
+    position: absolute;
+    margin-left: -22px;
+    background-color: #c1c7d0;
     font-size: 13px;
   }
 
@@ -1074,11 +1091,11 @@ form {
   }
 
   .frame img {
-    margin-left: 40%;
+    margin-left: 55%;
   }
 
   .skl img {
-    margin-left: 55%;
+    margin-left: 70%;
   }
 
   .item1b p {
@@ -1086,6 +1103,9 @@ form {
     line-height: 24px;
   }
 
+  .tags li {
+    padding: 10px;
+  }
   .item1b ul {
     margin-top: -8%;
   }
