@@ -1073,6 +1073,14 @@ form {
     margin-top: 2%;
   }
 
+  .frame img {
+    margin-left: 40%;
+  }
+
+  .skl img {
+    margin-left: 55%;
+  }
+
   .item1b p {
     font-size: 15px;
     line-height: 24px;
