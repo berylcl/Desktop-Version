@@ -56,10 +56,6 @@ OPTIONAL SECTIONS:
 
 - HTML/CSS
 - Figma
-
-## Live Demo
-
-[Live Demo Link](https://gakiiberyl.github.io/Desktop-Version/)
 ### Tech Stack <a name="tech-stack"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
