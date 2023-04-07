@@ -59,7 +59,7 @@ OPTIONAL SECTIONS:
 
 ## Live Demo
 
-[Live Demo Link](https://gakiiberyl.github.io/Desktop-Version/)
+[Live Demo Link](https://berylcl.github.io/Desktop-portfolio/)
 ### Tech Stack <a name="tech-stack"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
