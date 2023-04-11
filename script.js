@@ -27,7 +27,6 @@ const projects = [
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
-     
     },
     image: 'images/Snapshoot Portfolio1.png',
     live: 'https://berylcl.github.io/Finish-mobile-version/',
@@ -45,7 +44,7 @@ const projects = [
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
-      tech4: 'Ruby'
+      tech4: 'Ruby',
     },
     image: 'images/Snapshoot Portfolio2.png',
     live: 'https://berylcl.github.io/Finish-mobile-version/',
@@ -65,7 +64,7 @@ const projects = [
       tech2: 'css',
       tech3: 'javaScript',
       tech4: 'Ruby',
-      tech5: 'Bootstrap' 
+      tech5: 'Bootstrap',
     },
     image: 'images/Snapshoot Portfolio3.png',
     live: 'https://berylcl.github.io/Portfolio-setup-and-mobile-first/',
@@ -112,7 +111,6 @@ projects.forEach((project) => {
             <li class="techitems">${project.technologies.tech1}</li>
             <li class="techitems">${project.technologies.tech2}</li>
             <li class="techitems">${project.technologies.tech3}</li>
-            <li class="techitems">${project.technologies.tech4}</li>
         </ul>
         <button type="button" id="${project.id}" class="see">See Project</button>
     </div>
@@ -147,9 +145,9 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
       <li class="dev"><img src="./images/Counter.png" alt="dot">&nbsp; ${pop.year}</li>
     </ul>
     </div>
-    <img src="${pop.image}" alt="live" class="beryl">
+    <img src="${pop.image}" alt="live" class="beryl tonic-text2">
     <div class="explain">
-      <p class="tonic-text">
+      <p class="tonic-text2">
         ${pop.description}
       </p>
       <div class="smart">

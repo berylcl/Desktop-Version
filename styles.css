@@ -141,13 +141,13 @@ label {
   opacity: 0;
 }
 
-
 .image {
   transition-property: width;
   transition-duration: 3s;
   transition-delay: 2s;
   width: 110%;
 }
+
 .container#overlay.active {
   filter: blur(8px);
 }
@@ -352,6 +352,7 @@ li:last-child {
 
 .beryl {
   height: 67%;
+  max-width: 100%;
 }
 
 .close {
@@ -377,6 +378,16 @@ li:last-child {
   font-size: 1.5rem;
   line-height: 2.4rem;
   color: #172b4d;
+}
+
+.tonic-text2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #172b4d;
+  margin: 1%;
 }
 
 .cano {
@@ -663,14 +674,7 @@ hr {
   }
 
   .image {
-    transition-property: width;
-    transition-duration: 3s;
-    transition-delay: 2s;
     width: 100%;
-  }
-
-  .image:hover {
-    width: 65%;
   }
 
   .two {
