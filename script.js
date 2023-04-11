@@ -22,7 +22,7 @@ const projects = [
     company: 'PERSONAL',
     specialization: 'Front End Dev',
     year: 2022,
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     technologies: {
       tech1: 'html',
       tech2: 'css',
@@ -127,7 +127,6 @@ const seeproject = document.querySelectorAll('.see');
 const overlay = document.getElementById('overlay');
 const popup = document.querySelector('.popup');
 const over = document.querySelector('.over');
-
 seeproject.forEach((p) => p.addEventListener('click', (p) => {
   const { id } = p.target;
   const pop = projects.find((p) => p.id === id);

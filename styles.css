@@ -329,7 +329,7 @@ li:last-child {
 .btns {
   display: flex;
   gap: 16px;
-  padding-left: 16px;
+  padding-left: 2px;
 }
 
 .titles {
