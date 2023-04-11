@@ -39,7 +39,6 @@
 
 [Live Demo Link](https://berylcl.github.io/Desktop-Version/)
 ### Tech Stack <a name="tech-stack"></a>
-### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
