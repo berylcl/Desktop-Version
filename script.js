@@ -142,7 +142,7 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
       <li class="dev"><img src="./images/Counter.png" alt="dot">&nbsp; ${pop.year}</li>
     </ul>
     </div>
-    <img src="${pop.image}" alt="live">
+    <img src="${pop.image}" alt="live" class="beryl">
     <div class="explain">
       <p class="tonic-text">
         ${pop.description}

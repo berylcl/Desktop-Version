@@ -343,6 +343,10 @@ li:last-child {
   justify-content: space-between;
 }
 
+.beryl {
+  height: 67%;
+}
+
 .close {
   border: none;
   background-color: #fff;
