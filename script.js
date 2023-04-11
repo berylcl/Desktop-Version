@@ -27,6 +27,7 @@ const projects = [
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
+     
     },
     image: 'images/Snapshoot Portfolio1.png',
     live: 'https://berylcl.github.io/Finish-mobile-version/',
@@ -44,6 +45,7 @@ const projects = [
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
+      tech4: 'Ruby'
     },
     image: 'images/Snapshoot Portfolio2.png',
     live: 'https://berylcl.github.io/Finish-mobile-version/',
@@ -62,6 +64,8 @@ const projects = [
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
+      tech4: 'Ruby',
+      tech5: 'Bootstrap' 
     },
     image: 'images/Snapshoot Portfolio3.png',
     live: 'https://berylcl.github.io/Portfolio-setup-and-mobile-first/',
@@ -108,6 +112,7 @@ projects.forEach((project) => {
             <li class="techitems">${project.technologies.tech1}</li>
             <li class="techitems">${project.technologies.tech2}</li>
             <li class="techitems">${project.technologies.tech3}</li>
+            <li class="techitems">${project.technologies.tech4}</li>
         </ul>
         <button type="button" id="${project.id}" class="see">See Project</button>
     </div>

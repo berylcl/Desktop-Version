@@ -141,6 +141,13 @@ label {
   opacity: 0;
 }
 
+
+.image {
+  transition-property: width;
+  transition-duration: 3s;
+  transition-delay: 2s;
+  width: 110%;
+}
 .container#overlay.active {
   filter: blur(8px);
 }
