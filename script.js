@@ -190,3 +190,35 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
     overlay.classList.remove('active');
   });
 }));
+const form = document.querySelector('form');
+const nameInput = document.querySelector('input[name="name"]');
+const emailInput = document.querySelector('input[name="email"]');
+const messageInput = document.querySelector('textarea[name="message"]');
+const errorMessage = document.querySelector('#small');
+
+form.addEventListener('submit', (event) => {
+  const errorMessages = [];
+
+  // Check if name is filled out
+  if (nameInput.value.trim() === '') {
+    errorMessages.push('Name field is required');
+  }
+
+  // Check if email is filled out and in lowercase
+  if (emailInput.value.trim() === '') {
+    errorMessages.push('Email field is required');
+  } else if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorMessages.push('Email must be in lowercase');
+  }
+
+  // Check if message is filled out
+  if (messageInput.value.trim() === '') {
+    errorMessages.push('Message field is required');
+  }
+  if (errorMessages.length > 0) {
+    event.preventDefault(); // Prevent the form from being submitted
+    errorMessage.textContent = errorMessages.join('. '); // Display error messages
+  } else {
+    errorMessage.textContent = ''; // Clear error message
+  }
+});
