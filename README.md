@@ -37,7 +37,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://berylcl.github.io/Desktop-Version/)
+[Live Demo Link]Click here(https://berylcl.github.io/Desktop-Version/)
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
