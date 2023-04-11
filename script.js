@@ -22,7 +22,7 @@ const projects = [
     company: 'PERSONAL',
     specialization: 'Front End Dev',
     year: 2022,
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     technologies: {
       tech1: 'html',
       tech2: 'css',
@@ -44,6 +44,7 @@ const projects = [
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
+      tech4: 'Ruby',
     },
     image: 'images/Snapshoot Portfolio2.png',
     live: 'https://berylcl.github.io/Finish-mobile-version/',
@@ -62,6 +63,8 @@ const projects = [
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
+      tech4: 'Ruby',
+      tech5: 'Bootstrap',
     },
     image: 'images/Snapshoot Portfolio3.png',
     live: 'https://berylcl.github.io/Portfolio-setup-and-mobile-first/',
@@ -127,7 +130,6 @@ const seeproject = document.querySelectorAll('.see');
 const overlay = document.getElementById('overlay');
 const popup = document.querySelector('.popup');
 const over = document.querySelector('.over');
-
 seeproject.forEach((p) => p.addEventListener('click', (p) => {
   const { id } = p.target;
   const pop = projects.find((p) => p.id === id);
@@ -143,9 +145,9 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
       <li class="dev"><img src="./images/Counter.png" alt="dot">&nbsp; ${pop.year}</li>
     </ul>
     </div>
-    <img src="${pop.image}" alt="live">
+    <img src="${pop.image}" alt="live" class="beryl tonic-text2">
     <div class="explain">
-      <p class="tonic-text">
+      <p class="tonic-text2">
         ${pop.description}
       </p>
       <div class="smart">
