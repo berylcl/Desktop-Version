@@ -182,8 +182,8 @@ label {
 }
 
 .over.active {
-  pointer-events: all;
   opacity: 0.6;
+  pointer-events: all;
 }
 
 .connect {
