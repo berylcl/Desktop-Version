@@ -742,3 +742,9 @@ hr {
     background-image: url("images/contact_form_background_shapes.svg");
   }
 }
+
+@media (min-device-width: 500px) {
+  .navul.active {
+    display: none;
+  }
+}
