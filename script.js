@@ -222,3 +222,31 @@ form.addEventListener('submit', (event) => {
     errorMessage.textContent = ''; // Clear error message
   }
 });
+// preserve data in the browser
+const nameField = document.querySelector('input[name="name"]');
+const emailField = document.querySelector('input[name="email"]');
+const messageField = document.querySelector('textarea[name="message"]');
+
+function saveDataToLocalStorage() {
+  const data = {
+    name: nameField.value,
+    email: emailField.value,
+    message: messageField.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(data));
+}
+
+window.addEventListener('load', () => {
+  const savedData = localStorage.getItem('formData');
+  if (savedData) {
+    const data = JSON.parse(savedData);
+    nameField.value = data.name;
+    emailField.value = data.email;
+    messageField.value = data.message;
+  }
+});
+
+nameField.addEventListener('input', saveDataToLocalStorage);
+emailField.addEventListener('input', saveDataToLocalStorage);
+messageField.addEventListener('input', saveDataToLocalStorage);

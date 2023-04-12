@@ -93,9 +93,15 @@ Clone this repository to your desired folder:
 
 👤 **berylcl**
 
-- GitHub: [@berylcl] (https://github.com/Gakiiberyl)
+- GitHub: [@berylcl](https://github.com/Gakiiberyl)
 - Twitter: [omg_its_beryl](https://twitter.com/omg_its_beryl)
-- LinkedIn: [callme-claudette](https://www.linkedin.com/in/callme-claudette-83a796230/
+- LinkedIn: [callme-claudette](https://www.linkedin.com/in/callme-claudette-83a796230/)
+
+👤 **AliShahSafdari**
+
+- GitHub: [@AliShahSafdari](https://github.com/AliShahSafdari)
+- Twitter: [AlishahSafdari](https://twitter.com/AlishahSafdari)
+- LinkedIn: [ali-shah-safdari-010541215](https://www.linkedin.com/in/ali-shah-safdari-010541215/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
