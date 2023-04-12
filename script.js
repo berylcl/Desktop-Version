@@ -222,3 +222,26 @@ form.addEventListener('submit', (event) => {
     errorMessage.textContent = ''; // Clear error message
   }
 });
+//preserve data in the browser
+const nameField = document.querySelector('input[name="name"]');
+const emailField = document.querySelector('input[name="email"]');
+const messageField = document.querySelector('textarea[name="message"]');
+
+nameField.addEventListener('input', saveDataToLocalStorage);
+emailField.addEventListener('input', saveDataToLocalStorage);
+messageField.addEventListener('input', saveDataToLocalStorage);
+
+function saveDataToLocalStorage() {
+  const data = {
+    name: nameField.value,
+    email: emailField.value,
+    message: messageField.value
+  };
+
+  localStorage.setItem('formData', JSON.stringify(data));
+}
+
+
+
+
+
