@@ -564,6 +564,11 @@ li:last-child {
   background-position-x: right;
 }
 
+#error-msg {
+  color: #8a2929;
+  font-size: 3.2rem;
+}
+
 .small {
   display: flex;
   align-items: center;
