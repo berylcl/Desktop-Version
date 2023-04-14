@@ -2,7 +2,14 @@ const hamburger = document.querySelector('.hamburger');
 const navul = document.querySelector('.navul');
 const main = document.querySelector('.main');
 const works = document.getElementById('portfolio');
+window.addEventListener('resize', () => {
+  const screenWidth = window.innerWidth;
 
+  if (screenWidth >= 768) {
+    document.getElementById('mySidebar').classList.remove('sidebar');
+    document.getElementById('mySidebar').classList.add('menu-lists');
+  }
+});
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navul.classList.toggle('active');
