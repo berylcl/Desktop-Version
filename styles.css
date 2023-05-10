@@ -646,6 +646,14 @@ hr {
     background-color: #fff;
   }
 
+  .image img {
+    height: 400px;
+  }
+
+  .two image {
+    height: 4000px;
+  }
+
   .navul a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
